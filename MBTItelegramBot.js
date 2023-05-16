@@ -1,8 +1,8 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
-const token = '6225809192:AAF-EV5zE6JC74GWBrGCxOPmVHCUV9JeUec';
-const mockAPIUrl = 'https://63e208d4ad0093bf29c65b2d.mockapi.io/MBTIUSERS';
+const token = 'telegramtoken';
+const mockAPIUrl = 'apiurl';
 
 const bot = new TelegramBot(token, {polling: true});
 
